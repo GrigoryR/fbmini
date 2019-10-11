@@ -1,0 +1,10 @@
+Overview:
+Mini FB project shall provide the basic functionality of adding, updating, and deleting a contact from the user's list of contacts.
+
+The contacts will be stored in the C:\Contacts\[A-Z]\Contact's Full Name directory structure, i.e. a user named John Smith 
+would be stored as follows:
+
+C:\Contacts\S\Smith, John\details.txt
+John Smith's pictures would be stored in pictures directory within the Smith, John directory.
+
+At this time, it's going to use an alphanumeric UI (console application)
