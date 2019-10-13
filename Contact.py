@@ -42,6 +42,7 @@ class Contact:
         self._Home_Number = hm
         self._Work_Phone = wk
         self.Mobile_Number = mn
+
     @property
     def First_Name(self, fname):
         return fname
@@ -62,27 +63,29 @@ class Contact:
     def Middle_Name(self, mname):
         return mname
 
+    @Middle_Name.setter
+    def Middle_Name(self, mname):
+        self._Middle_Name = mname
+
     @Home_Number.setter
     def Home_Number(self, hm):
-        self._Home_Number = hm   @property
+        self._Home_Number = hm
+
+    @property
     def Home_Number(self, hm):
         return hm
 
     @property
     def Work_Number(self, wk):
-        return hm    @Home_Number.setter
-    def Work_Number(self, wk):
-        self._Work_Number = wk   @property
-    def Work_Number(self, wk):
-        return wk
-
-    @property
-    def Mobile_Number(self, mn):
-        return wk    @Home_Number.setter
-    def Mobile_Number(self, mn):
-        self._Middle_Name =    @property
-    def Mobile_Number(self, mn):
         return hm
+
+    @Work_Number.setter
+    def Work_Number(self, wk):
+        self._Work_Number = wk
+
+    @Mobile_Number.setter
+    def Mobile_Number(self, mn):
+        self._Mobile_Number = mn
 
     @property
     def Mobile_Number(self, mn):
