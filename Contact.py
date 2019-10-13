@@ -1,4 +1,4 @@
-'''
+"""
 Contact object should have the following data points:
   First Name
   Last Name
@@ -15,5 +15,9 @@ Contact object should have the following data points:
   Notes
   Pictures
  All data points except First Name and Last Name are optional
-'''
-class Contact():
+"""
+
+
+class Contact:
+    def __init__(self):
+        pass
