@@ -35,11 +35,13 @@ Contact object should have the following data points:
 
 
 class Contact:
-    def __init__(self, fname, lname, mname):
+    def __init__(self, fname, lname, mname, hm, wk, mn):
         self._First_Name = fname
         self._Last_Name = lname
         self._Middle_Name = mname
-
+        self._Home_Number = hm
+        self._Work_Phone = wk
+        self.Mobile_Number = mn
     @property
     def First_Name(self, fname):
         return fname
@@ -60,6 +62,28 @@ class Contact:
     def Middle_Name(self, mname):
         return mname
 
-    @First_Name.setter
-    def Middle_Name(self, mname):
-        self._Middle_Name = mname
+    @Home_Number.setter
+    def Home_Number(self, hm):
+        self._Home_Number = hm   @property
+    def Home_Number(self, hm):
+        return hm
+
+    @property
+    def Work_Number(self, wk):
+        return hm    @Home_Number.setter
+    def Work_Number(self, wk):
+        self._Work_Number = wk   @property
+    def Work_Number(self, wk):
+        return wk
+
+    @property
+    def Mobile_Number(self, mn):
+        return wk    @Home_Number.setter
+    def Mobile_Number(self, mn):
+        self._Middle_Name =    @property
+    def Mobile_Number(self, mn):
+        return hm
+
+    @property
+    def Mobile_Number(self, mn):
+        return mn
